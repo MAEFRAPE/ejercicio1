@@ -1,0 +1,23 @@
+import random #se importa la librería de python random
+
+lambetazo = ["QUERIDOS", "APRECIADOS", "DISTINGUIDOS", "HONORABLES", "ESTIMADOS", "RESPETADOS"]  #se definen las  listas
+potenciales = ["COMPATRIOTAS", "CONCIUDADANOS", "AMIGOS", "COTERRANEOS","COPARTIDARIOS" , "ELECTORES"]
+condicion = ["EN MI GOBIERNO", "CON SU APOYO", "SIENDO ELEGIDO", "CON SU AYUDA","SI ME SIGUEN" , "DURANTE MI MANDATO"]
+compromiso = ["VOY A DERROTAR", "VENCERÉ", "ELIMINARÉ", "ACABARÉ","LUCHARÉ CONTRA" , "COMBATIRÉ"]
+ilusion = ["LA VIOLENCIA Y", "LA DELINCUENCIA Y", "LA CORRUPCIÓN Y", "LA INFLACIÓN Y","LA POBREZA Y" , "EL DESPLAZAMIENTO Y"]
+promesa = ["TRABAJARÉ POR", "GARANTIZARÉ", "PROTEGERÉ", "VELARÉ POR","PROMOVERÉ" , "DEFENDERÉ"]
+beneficio = ["LA EDUCACIÓN", "EL EMPLEO", "LA SEGURIDAD", "LA LAZ","LA IGUALDAD" , "LA SALUD"]
+cantidad = ["DEL PAÍS", "DE LA CIUDAD", "DE LA COMUNIDAD", "DE LA POBLACIÓN","PARA TODA LA GENTE" , "DE CADA COLOMBIANO"]
+
+lambetazo_inicial = random.choice(lambetazo) #se utiliza la librería para seleccionar un elemento al azar de la lista sujetos
+potenciales_seleccionado = random.choice(potenciales)
+condicion_seleccionado = random.choice(condicion)
+compromiso_seleccionado = random.choice(compromiso)
+ilusion_seleccionado = random.choice(ilusion)
+promesa_seleccionado = random.choice(promesa)
+beneficio_seleccionado = random.choice(beneficio)
+cantidad_seleccionada = random.choice(cantidad)
+
+
+print("El discurso politiquero es : " + lambetazo_inicial + " " + potenciales_seleccionado + " " + condicion_seleccionado + " " 
+      + compromiso_seleccionado + " " + ilusion_seleccionado + " " + promesa_seleccionado+" " + beneficio_seleccionado + " " + cantidad_seleccionada) #se imprime el discurso
